@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Star, Shield, Leaf, Award } from 'lucide-react';
 
@@ -64,7 +63,14 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/7cd5dd79-7477-4c0f-a0c6-7b320eeacd0c.png" 
                 alt="Crystal Glow Skin Whitening Cream"
-                className="relative z-10 w-80 h-80 object-contain drop-shadow-2xl"
+                className="relative z-10 h-72 object-contain drop-shadow-2xl border-4 rounded-2xl w-full border-white"
+                loading="lazy"
+              />
+              {/* New Product Photo */}
+              <img
+                src="/lovable-uploads/10be1acd-bd67-44ae-a075-fbd8b0a2f335.png"
+                alt="Crystal Glow Cream Real Photo"
+                className="relative z-20 w-60 h-60 object-cover drop-shadow-xl rounded-2xl mt-6 mx-auto border-4 border-white"
                 loading="lazy"
               />
             </div>
