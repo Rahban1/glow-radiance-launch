@@ -38,8 +38,8 @@ const ProductDetails = () => {
 
   return (
     <section className="py-20 bg-gradient-to-b from-pink-50/30 to-white">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="grid lg:grid-cols-2 gap-16 items-center max-w-sm mx-auto lg:max-w-none">
           {/* Left Content */}
           <div className="space-y-8">
             <div>
@@ -56,7 +56,7 @@ const ProductDetails = () => {
             </div>
 
             {/* Ingredients Grid */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {ingredients.map((ingredient, index) => (
                 <Card key={index} className="p-4 hover:shadow-lg transition-all duration-300 border-0 bg-white/80 backdrop-blur-sm group">
                   <div className="flex items-center gap-3">
