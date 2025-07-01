@@ -60,23 +60,23 @@ const Hero = () => {
           <div className="relative flex justify-center items-center">
             <div className="relative animate-[float_6s_ease-in-out_infinite]">
               <div className="absolute inset-0 bg-gradient-to-r from-pink-400/30 to-rose-400/30 rounded-full blur-3xl scale-150"></div>
-              <div className="flex gap-[-2rem] justify-center items-center w-full h-80 relative">
+              <div className="flex flex-col sm:flex-row justify-center items-center w-full h-64 sm:h-80 relative gap-0 sm:gap-[-2rem]">
                 <img 
                   src="/lovable-uploads/7cd5dd79-7477-4c0f-a0c6-7b320eeacd0c.png" 
                   alt="Crystal Glow Skin Whitening Cream"
-                  className="w-56 h-56 object-cover rounded-xl border-2 border-white shadow-lg bg-white transform -rotate-6 -translate-y-2 z-20"
+                  className="w-32 h-32 sm:w-56 sm:h-56 object-cover rounded-xl border-2 border-white shadow-lg bg-white transform -rotate-2 sm:-rotate-6 -translate-y-1 sm:-translate-y-2 z-20 mb-2 sm:mb-0"
                   loading="lazy"
                 />
                 <img
                   src="/product.jpg"
                   alt="Crystal Glow Product 1"
-                  className="w-56 h-56 object-cover rounded-xl border-2 border-white shadow-lg bg-white transform rotate-6 translate-y-4 z-10"
+                  className="w-32 h-32 sm:w-56 sm:h-56 object-cover rounded-xl border-2 border-white shadow-lg bg-white transform rotate-2 sm:rotate-6 translate-y-1 sm:translate-y-4 z-10 mb-2 sm:mb-0"
                   loading="lazy"
                 />
                 <img
                   src="/product2.jpg"
                   alt="Crystal Glow Product 2"
-                  className="w-56 h-56 object-cover rounded-xl border-2 border-white shadow-lg bg-white transform -rotate-12 translate-y-6 z-10"
+                  className="w-32 h-32 sm:w-56 sm:h-56 object-cover rounded-xl border-2 border-white shadow-lg bg-white transform -rotate-3 sm:-rotate-12 translate-y-2 sm:translate-y-6 z-10"
                   loading="lazy"
                 />
               </div>
