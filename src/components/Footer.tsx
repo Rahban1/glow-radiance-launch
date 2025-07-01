@@ -1,5 +1,4 @@
-
-import { Leaf, Shield, Award, Heart } from 'lucide-react';
+import { Leaf, Shield, Award, Heart, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -14,6 +13,17 @@ const Footer = () => {
             <p className="text-gray-300 leading-relaxed">
               Unveiling natural radiance with premium skincare solutions for everyone.
             </p>
+            <div className="pt-2">
+              <a
+                href="https://instagram.com/mohdanwar_21"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 transition-colors"
+              >
+                <Instagram className="w-5 h-5 text-white" />
+              </a>
+            </div>
           </div>
 
           {/* Trust Indicators */}
@@ -39,24 +49,13 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Customer Service */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-lg">Customer Care</h3>
-            <div className="space-y-2 text-gray-300 text-sm">
-              <p>30-Day Money Back Guarantee</p>
-              <p>Free Shipping Worldwide</p>
-              <p>24/7 Customer Support</p>
-              <p>Secure Payment Options</p>
-            </div>
-          </div>
-
           {/* Contact */}
           <div className="space-y-4">
             <h3 className="font-semibold text-lg">Get In Touch</h3>
             <div className="space-y-2 text-gray-300 text-sm">
-              <p>Email: support@crystalglow.com</p>
-              <p>Phone: +91 98765 43210</p>
-              <p>Mon-Fri: 9AM-6PM IST</p>
+              <p>Phone: +91 83687 93616</p>
+              <p>Manufactured and Marketed by Mohd Anwar</p>
+              <p>T-381 Nizamuddin west New Delhi - 110013</p>
             </div>
           </div>
         </div>
@@ -64,7 +63,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Crystal Glow. All rights reserved. Made with ❤️ for beautiful skin.
+            © 2025 Crystal Glow. All rights reserved. Made with ❤️ for beautiful skin.
           </p>
         </div>
       </div>

@@ -10,9 +10,9 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-light leading-tight text-gray-900">
-                Unveil Your
-                <span className="block bg-gradient-to-r from-pink-500 to-rose-400 bg-clip-text text-transparent font-medium">
-                  Natural Radiance
+                Get Glow
+                <span className="block bg-gradient-to-r py-2 from-pink-500 to-rose-400 bg-clip-text text-transparent font-medium">
+                  Like Crystal
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-6 py-4">
               <div className="flex items-center gap-2 text-sm text-gray-700">
                 <Shield className="w-5 h-5 text-pink-500" />
-                <span>Dermatologist Tested</span>
+                <span>Delivering Globally</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-gray-700">
                 <Leaf className="w-5 h-5 text-green-500" />
@@ -39,12 +39,12 @@ const Hero = () => {
 
             {/* CTA Button */}
             <div className="space-y-4">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-              >
-                Get Crystal Glow - ₹499
-              </Button>
+                <Button 
+                  size="lg" 
+                  className="bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                >
+                  Get Crystal Glow - ₹499
+                </Button>             
               <div className="flex items-center gap-1 text-sm text-gray-600">
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
@@ -85,7 +85,7 @@ const Hero = () => {
             
             <div className="absolute bottom-32 left-10 animate-[float_5s_ease-in-out_infinite_2s] opacity-80">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg">
-                <div className="text-2xl font-bold text-rose-500">7 Days</div>
+                <div className="text-2xl font-bold text-rose-500">30 Days</div>
                 <div className="text-sm text-gray-600">Visible Results</div>
               </div>
             </div>
