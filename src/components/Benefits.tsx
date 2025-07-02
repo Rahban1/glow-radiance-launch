@@ -13,9 +13,9 @@ const Benefits = () => {
     },
     {
       icon: Clock,
-      title: "7-Day Transformation",
+      title: "30-Day Transformation",
       description: "Complete skin tone improvement within one week of regular use",
-      stat: "7 Days",
+      stat: "30 Days",
       statLabel: "For visible results"
     },
     {

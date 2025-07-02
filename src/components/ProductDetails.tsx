@@ -45,7 +45,7 @@ const ProductDetails = () => {
             <div>
               <h2 className="text-3xl md:text-5xl font-light text-gray-900 mb-6 px-2">
                 Premium 
-                <span className="block bg-gradient-to-r from-pink-500 to-rose-400 bg-clip-text text-transparent font-medium">
+                <span className="py-2 block bg-gradient-to-r from-pink-500 to-rose-400 bg-clip-text text-transparent font-medium">
                   Ingredients
                 </span>
               </h2>
