@@ -127,7 +127,6 @@ const ProductDetails = () => {
                       Order Crystal Glow Now
                     </Button>
                   </a>
-                  <p className="text-sm text-gray-600 mt-2">Free shipping • 30-day money-back guarantee</p>
                 </div>
               </div>
             </Card>
