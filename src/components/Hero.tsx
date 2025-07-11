@@ -66,7 +66,7 @@ const Hero = () => {
           {/* Right Content - Product Image */}
           <div className="relative flex justify-center items-center">
             <div className="relative animate-[float_6s_ease-in-out_infinite]">
-              <div className="absolute inset-0 bg-gradient-to-r from-pink-400/30 to-rose-400/30 rounded-full blur-3xl scale-150"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-pink-400/30 to-rose-400/30 rounded-full blur-3xl "></div>
               <div className="flex flex-col sm:flex-row justify-center items-center relative gap-4 sm:gap-2">
                 <img 
                   src="/lovable-uploads/7cd5dd79-7477-4c0f-a0c6-7b320eeacd0c.png" 
