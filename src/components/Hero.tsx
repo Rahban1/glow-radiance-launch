@@ -42,10 +42,15 @@ const Hero = () => {
                 <a
                   href="https://wa.me/7289948867"
                   target="_blank"
-                  className="inline-block bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center"
+                  rel="noopener noreferrer"
+                  className="inline-block"
                   style={{ minWidth: '220px' }}
                 >
-                  Get Crystal Glow - ₹499
+                  <Button
+                    className="bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-center w-full"
+                  >
+                    Get Crystal Glow - ₹499
+                  </Button>
                 </a>
               <div className="flex items-center gap-1 text-sm text-gray-600">
                 <div className="flex">
