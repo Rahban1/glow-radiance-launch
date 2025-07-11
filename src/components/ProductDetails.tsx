@@ -114,12 +114,19 @@ const ProductDetails = () => {
 
                 <div className="text-center pt-6 border-t border-gray-200">
                   <div className="text-3xl font-bold text-yellow-600 mb-2">Only ₹499/-</div>
-                  <Button 
-                    size="lg"
-                    className="w-full bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                  <a
+                    href="https://wa.me/917289948867"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full"
                   >
-                    Order Crystal Glow Now
-                  </Button>
+                    <Button 
+                      size="lg"
+                      className="w-full bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                    >
+                      Order Crystal Glow Now
+                    </Button>
+                  </a>
                   <p className="text-sm text-gray-600 mt-2">Free shipping • 30-day money-back guarantee</p>
                 </div>
               </div>
